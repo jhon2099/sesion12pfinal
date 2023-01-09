@@ -12,7 +12,7 @@ class _frmRegMatriculaState extends State<regMatricula> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Registro de producto'),
+        title: Text(''),
         centerTitle: true,
         elevation: 20,
         shadowColor: Colors.blue[400],
@@ -36,7 +36,7 @@ class _frmRegMatriculaState extends State<regMatricula> {
                   TextField(
                     // controller: codReg,
                     decoration: InputDecoration(
-                      hintText: 'Codigo',
+                      hintText: '',
                       prefixIcon: Icon(
                         Icons.lock,
                         color: Colors.black,
@@ -58,7 +58,7 @@ class _frmRegMatriculaState extends State<regMatricula> {
                   TextField(
                     // controller: nomReg,
                     decoration: InputDecoration(
-                      hintText: 'Nombre',
+                      hintText: '',
                       prefixIcon: Icon(
                         Icons.person,
                         color: Colors.black,
@@ -80,7 +80,7 @@ class _frmRegMatriculaState extends State<regMatricula> {
                   TextField(
                     // controller: imgReg,
                     decoration: InputDecoration(
-                      hintText: 'Descripcion',
+                      hintText: '',
                       prefixIcon: Icon(
                         Icons.description,
                         color: Colors.black,
@@ -129,7 +129,7 @@ class _frmRegMatriculaState extends State<regMatricula> {
                           style: TextButton.styleFrom(
                               primary: Colors.deepPurple,
                               backgroundColor: Colors.deepPurple[100]),
-                          child: Text('Guardar')),
+                          child: Text('')),
                       ElevatedButton(
                           onPressed: () {
                             // Navigator.push(
@@ -141,7 +141,7 @@ class _frmRegMatriculaState extends State<regMatricula> {
                           style: TextButton.styleFrom(
                               primary: Colors.blue,
                               backgroundColor: Colors.blue[100]),
-                          child: Text('Enviar')),
+                          child: Text('')),
                     ],
                   )
                 ],
